@@ -1,0 +1,36 @@
+@import "./custom_colors";
+
+
+.container{
+    margin-top: 5vh;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.box {
+    background-color: $custom-white;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 3px 13px 1px rgba(0, 0, 0, 0.35);
+    box-shadow: 4px 3px 13px 1px rgba(0, 0, 0, 0.35);
+}
+#box1{
+    height:500px;
+    width:30vw
+}
+#box2{
+    height:300px;
+    width:65vw
+}
+@media (max-width:800px) {
+    #box1, #box2{
+        width: 94vw;
+    }
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
