@@ -23,7 +23,6 @@ const Header = () => {
                 </button>
                 <ul id='menu'>
                     <li><Link to='/projetos'>Projetos</Link></li>
-                    <li><Link to='/contato'>Contato</Link></li>
                 </ul>
             </nav>
         </header>

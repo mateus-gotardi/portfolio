@@ -1,5 +1,13 @@
 @import "./custom_colors";
-body{
-    background-color: $custom-white;
-    font-family: "Lucida Console", Monaco, monospace;
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: $custom-white;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #042940;
+background-image:  linear-gradient(30deg, #DBF227 12%, transparent 12.5%, transparent 87%, #DBF227 87.5%, #DBF227), linear-gradient(150deg, #DBF227 12%, transparent 12.5%, transparent 87%, #DBF227 87.5%, #DBF227), linear-gradient(30deg, #DBF227 12%, transparent 12.5%, transparent 87%, #DBF227 87.5%, #DBF227), linear-gradient(150deg, #DBF227 12%, transparent 12.5%, transparent 87%, #DBF227 87.5%, #DBF227), linear-gradient(60deg, #DBF22777 25%, transparent 25.5%, transparent 75%, #DBF22777 75%, #DBF22777), linear-gradient(60deg, #DBF22777 25%, transparent 25.5%, transparent 75%, #DBF22777 75%, #DBF22777);
+background-size: 80px 140px;
+background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
 }

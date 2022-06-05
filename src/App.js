@@ -1,10 +1,12 @@
+
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/header";
-import ContactScreen from "./screens/contact";
 import HomeScreen from "./screens/home";
 import ProjectsScreen from "./screens/projects";
 import './styles/app.scss'
+
+
 
 function App() {
   return (
@@ -12,8 +14,8 @@ function App() {
     <Header/>
     <Routes>
       <Route exact path='/' element={<HomeScreen />} />
-      <Route exact path='/contato' element={<ContactScreen />} />
       <Route exact path='/projetos' element={<ProjectsScreen />} />
+      <Route exact path='*' element={<HomeScreen />} />
     </Routes>
   </BrowserRouter>
   );
