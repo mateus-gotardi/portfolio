@@ -19,7 +19,7 @@ const HomeScreen = () => {
                         <img alt="foto-pefil" className="img" src={profilePic}></img>
                     </div>
                     <div className="info-container">
-                        <h1 className="title">Mateus Gotardi</h1>
+                        <h1 className="title">MATEUS GOTARDI</h1>
                         <span className="tag">Javascript Full Stack Developer</span>
                         <p className="info"><IoLogoWhatsapp /> (11)9 5309-0693</p>
                         <p className="info"><MdEmail /> mateus.gotardi@gmail.com</p>
@@ -32,32 +32,35 @@ const HomeScreen = () => {
                 </div>
             </div>
             <div className="column">
-                <div id='box2' className="box">
-                    <h2 className="sub-title">Sobre Mim</h2>
-                    <p className="info">
-                        Atualmente cursando o nono semestre de Comunicação Social - Midialogia na Universidade Estadual de Campinas.
-                    </p>
-                    <p className="info">
-                        Sou bom trabalhando em equipe e possuo expeiência com captação e edição de produtos audiovisuais, ultimamente venho me esforçando na area de desenvolvimento web, especialmente front-end.
-                    </p>
-                    <p className="info">Procuro minha primeira oportunidade como desenvolvedor.</p>
+                <div className="line">
+                    <div id='box4' className="box">
+                        <h2 className="sub-title">Sobre Mim</h2>
+                        <p className="info">
+                            Atualmente cursando o nono semestre de Comunicação Social - Midialogia na Universidade Estadual de Campinas.
+                        </p>
+                        <p className="info">
+                            Sou bom trabalhando em equipe e possuo experiência com captação e edição de produtos audiovisuais, ultimamente venho me esforçando na area de desenvolvimento web, especialmente front-end.
+                        </p>
+                        <p className="info">Procuro minha primeira oportunidade como desenvolvedor.</p>
+                    </div>
+                    <div id='box4' className="box">
+                        <h2 className="sub-title">Habilidades</h2>
+                        <p className="info">
+                            <ul>
+                                <li><DiJavascript1 />JavaScript</li>
+                                <li><DiHtml5 />HTML</li>
+                                <li><DiCss3Full />CSS</li>
+                                <li><DiReact />React-JS</li>
+                                <li><DiMongodb />MongoDB</li>
+                                <li><DiPhotoshop />Photoshop</li>
+                                <li><SiAdobeaftereffects />After-Effects</li>
+                                <li><SiAdobepremierepro />Premiere PRO</li>
+                                <li><TbMessageLanguage /> Inglês Intermediário</li>
+                            </ul>
+                        </p>
+                    </div>
                 </div>
-                <div id='box2' className="box">
-                    <h2 className="sub-title">Habilidades</h2>
-                    <p className="info">
-                        <ul>
-                            <li><DiJavascript1 />JavaScript</li>
-                            <li><DiHtml5 />HTML</li>
-                            <li><DiCss3Full />CSS</li>
-                            <li><DiReact />React-JS</li>
-                            <li><DiMongodb />MongoDB</li>
-                            <li><DiPhotoshop />Photoshop</li>
-                            <li><SiAdobeaftereffects />After-Effects</li>
-                            <li><SiAdobepremierepro />Premiere PRO</li>
-                            <li><TbMessageLanguage /> Inglês Intermediário</li>
-                        </ul>
-                    </p>
-                </div>
+
                 <div id='box2' className="box">
                     <h2 className="sub-title">Formação</h2>
                     <div className="exp">
