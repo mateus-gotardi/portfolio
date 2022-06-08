@@ -32,6 +32,13 @@
     border-radius: 10px;
     -webkit-box-shadow: 4px 3px 13px 1px rgba(0, 0, 0, 0.35);
     box-shadow: 4px 3px 13px 1px rgba(0, 0, 0, 0.35);
+    .content{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 #box1 {
@@ -62,7 +69,6 @@
 
     .sub-title {
         margin-top: -3.5vh;
-
     }
 }
 #box4{
@@ -75,7 +81,7 @@
     margin-bottom: 4vh;
     .sub-title {
         margin-top: -3.5vh;
-
+        margin-bottom: 0;
     }
 }
 

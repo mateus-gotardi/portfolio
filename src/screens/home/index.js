@@ -7,7 +7,7 @@ import { IoLogoWhatsapp, IoLogoGithub } from 'react-icons/io'
 import { MdEmail } from 'react-icons/md'
 import { TbMessageLanguage } from 'react-icons/tb'
 import { SiAdobeaftereffects, SiAdobepremierepro, SiLinkedin } from 'react-icons/si'
-import { DiJavascript1, DiHtml5, DiCss3Full, DiReact, DiMongodb, DiPhotoshop } from 'react-icons/di'
+import { DiJavascript1, DiHtml5, DiCss3Full, DiReact, DiMongodb, DiPhotoshop, DiSass } from 'react-icons/di'
 
 
 const HomeScreen = () => {
@@ -21,8 +21,8 @@ const HomeScreen = () => {
                     <div className="info-container">
                         <h1 className="title">MATEUS GOTARDI</h1>
                         <span className="tag">Javascript Full Stack Developer</span>
-                        <p className="info"><IoLogoWhatsapp /> (11)9 5309-0693</p>
-                        <p className="info"><MdEmail /> mateus.gotardi@gmail.com</p>
+                        <a className="info" href='https://contate.me/mateusgotardi' target='blank'><IoLogoWhatsapp /> (11) 9 5309-0693</a>
+                        <a className="info" href='mailto: mateus.gotardi@gmail.com'><MdEmail /> mateus.gotardi@gmail.com</a>
                         <div className="links">
                             <a href="https://www.linkedin.com/in/mateus-de-aguiar-gotardi-774632195/" target='blank'><SiLinkedin /></a>
                             <a href="https://github.com/mateus-gotardi" target='blank'><IoLogoGithub /></a>
@@ -35,13 +35,16 @@ const HomeScreen = () => {
                 <div className="line">
                     <div id='box4' className="box">
                         <h2 className="sub-title">Sobre Mim</h2>
-                        <p className="info">
-                            Atualmente cursando o nono semestre de Comunicação Social - Midialogia na Universidade Estadual de Campinas.
-                        </p>
-                        <p className="info">
-                            Sou bom trabalhando em equipe e possuo experiência com captação e edição de produtos audiovisuais, ultimamente venho me esforçando na area de desenvolvimento web, especialmente front-end.
-                        </p>
-                        <p className="info">Procuro minha primeira oportunidade como desenvolvedor.</p>
+                        <section className="content">
+                            <p className="info">
+                                Atualmente cursando o nono semestre de Comunicação Social - Midialogia na Universidade Estadual de Campinas.
+                            </p>
+                            <p className="info">
+                                Sou bom trabalhando em equipe e possuo experiência com captação e edição de produtos audiovisuais, ultimamente venho me esforçando na area de desenvolvimento web, especialmente front-end.
+                            </p>
+                            <p className="info">Procuro minha primeira oportunidade como desenvolvedor.</p>
+                        </section>
+
                     </div>
                     <div id='box4' className="box">
                         <h2 className="sub-title">Habilidades</h2>
@@ -50,6 +53,7 @@ const HomeScreen = () => {
                                 <li><DiJavascript1 />JavaScript</li>
                                 <li><DiHtml5 />HTML</li>
                                 <li><DiCss3Full />CSS</li>
+                                <li><DiSass />Sass</li>
                                 <li><DiReact />React-JS</li>
                                 <li><DiMongodb />MongoDB</li>
                                 <li><DiPhotoshop />Photoshop</li>
